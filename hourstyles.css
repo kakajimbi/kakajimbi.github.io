@@ -1,0 +1,83 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered main content */
+main {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #d5e6e4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #d5e6e4;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    background-color: #005f6b;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Hidden comment */
+.hidden {
+    display: none;
+}
+
+#hiddenComment {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+}
